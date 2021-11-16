@@ -1,5 +1,3 @@
-.. image:: ./.github/assets/logo.png
-
 We that 
 
 .. image:: https://github.com/nsidnev/fastapi-realworld-example-app/workflows/API%20spec/badge.svg
