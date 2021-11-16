@@ -1,22 +1,19 @@
 We that 
 
-.. image:: https://github.com/nsidnev/fastapi-realworld-example-app/workflows/API%20spec/badge.svg
-   :target: https://github.com/nsidnev/fastapi-realworld-example-app
+.. image:: https://github.com/gsdc-bugema/gdsc_users_backend/workflows/API%20spec/badge.svg
+   :target: https://github.com/gsdc-bugema/gdsc_users_backend
 
-.. image:: https://github.com/nsidnev/fastapi-realworld-example-app/workflows/Tests/badge.svg
-   :target: https://github.com/nsidnev/fastapi-realworld-example-app
+.. image:: https://github.com/gsdc-bugema/gdsc_users_backend/workflows/Tests/badge.svg
+   :target: https://github.com/gsdc-bugema/gdsc_users_backend
 
-.. image:: https://github.com/nsidnev/fastapi-realworld-example-app/workflows/Styles/badge.svg
-   :target: https://github.com/nsidnev/fastapi-realworld-example-app
+.. image:: https://github.com/gsdc-bugema/gdsc_users_backend/workflows/Styles/badge.svg
+   :target: https://github.com/gsdc-bugema/gdsc_users_backend
 
-.. image:: https://github.com/nsidnev/fastapi-realworld-example-app/workflows/Deploy/badge.svg
-   :target: https://frw.nsidnev.dev/
-
-.. image:: https://codecov.io/gh/nsidnev/fastapi-realworld-example-app/branch/master/graph/badge.svg
-   :target: https://codecov.io/gh/nsidnev/fastapi-realworld-example-app
+.. image:: https://github.com/gsdc-bugema/gdsc_users_backend/workflows/Deploy/badge.svg
+   :target: https://frw.gsdc-bugema.dev/
 
 .. image:: https://img.shields.io/github/license/Naereen/StrapDown.js.svg
-   :target: https://github.com/nsidnev/fastapi-realworld-example-app/blob/master/LICENSE
+   :target: https://github.com/gsdc-bugema/gdsc_users_backend/blob/master/LICENSE
 
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
    :target: https://github.com/ambv/black
@@ -36,8 +33,8 @@ First, run ``PostgreSQL``, set environment variables and create database. For ex
 
 Then run the following commands to bootstrap your environment with ``poetry``: ::
 
-    git clone https://github.com/nsidnev/fastapi-realworld-example-app
-    cd fastapi-realworld-example-app
+    git clone https://github.com/gsdc-bugema/gdsc_users_backend
+    cd gdsc_users_backend
     poetry install
     poetry shell
 
@@ -84,7 +81,7 @@ To run all the tests of a project, simply run the ``pytest`` command: ::
     $ pytest
     ================================================= test session starts ==================================================
     platform linux -- Python 3.8.3, pytest-5.4.2, py-1.8.1, pluggy-0.13.1
-    rootdir: /home/some-user/user-projects/fastapi-realworld-example-app, inifile: setup.cfg, testpaths: tests
+    rootdir: /home/some-user/user-projects/gdsc_users_backend, inifile: setup.cfg, testpaths: tests
     plugins: env-0.6.2, cov-2.9.0, asyncio-0.12.0
     collected 90 items
 

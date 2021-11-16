@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "fastapi-realworld-example-app"
+name = "gdsc_users_backend"
 version = "0.0.0"
 description = "Backend logic implementation for https://github.com/gothinkster/realworld with awesome FastAPI"
 authors = ["Nik Sidnev <sidnev.nick@gmail.com>"]

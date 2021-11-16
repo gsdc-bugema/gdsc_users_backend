@@ -10,7 +10,7 @@ updates:
       separator: "-"
     open-pull-requests-limit: 10
     reviewers:
-      - nsidnev
+      - jnsereko
 
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -21,4 +21,4 @@ updates:
       separator: "-"
     open-pull-requests-limit: 10
     reviewers:
-      - nsidnev
+      - jnsereko
