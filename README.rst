@@ -1,6 +1,6 @@
 .. image:: ./.github/assets/logo.png
 
-|
+We that 
 
 .. image:: https://github.com/nsidnev/fastapi-realworld-example-app/workflows/API%20spec/badge.svg
    :target: https://github.com/nsidnev/fastapi-realworld-example-app
@@ -65,9 +65,11 @@ Ensure the DATABASE_URL variable is set correctly in the `.env` file.
 It is most likely caused by POSTGRES_HOST not pointing to its localhost.
 
    DATABASE_URL=postgresql://postgres:postgres@0.0.0.0:5432/rwdb
-   If you run into ``Failed to bind tcp 0.0.0.0:5432 address already in use``, it will mean that postgress is already running on port ``5432``.  
-   Please stop it and continue.  ``sudo service postgresql stop`` 
-   As an alternative, you can chage the port. ``...@0.0.0.0:5532/rwdb``
+
+If you run into ``Failed to bind tcp 0.0.0.0:5432 address already in use``, it will mean that postgress is already running on port ``5432``. Please stop it and continue. 
+   ``sudo service postgresql stop``.  
+
+As an alternative, you can chage the port. ``...@0.0.0.0:5532/rwdb``
 
 Run tests
 ---------
