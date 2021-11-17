@@ -10,7 +10,7 @@ We that
    :target: https://github.com/gsdc-bugema/gdsc_users_backend
 
 .. image:: https://github.com/gsdc-bugema/gdsc_users_backend/workflows/Deploy/badge.svg
-   :target: https://frw.gsdc-bugema.dev/
+   :target: https://gsdc-bugema.herokuapp.com/
 
 .. image:: https://img.shields.io/github/license/Naereen/StrapDown.js.svg
    :target: https://github.com/gsdc-bugema/gdsc_users_backend/blob/master/LICENSE
